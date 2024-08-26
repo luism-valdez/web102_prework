@@ -129,7 +129,7 @@ function filterFundedOnly() {
     // use the function we previously created to add unfunded games to the DOM
     addGamesToPage(fundedGames);
 }
-// filterFundedOnly();
+filterFundedOnly();
 
 // show all games
 function showAllGames() {
@@ -138,7 +138,7 @@ function showAllGames() {
     // add all games from the JSON data to the DOM
     addGamesToPage(GAMES_JSON);
 }
-// showAllGames();
+// showAllGames(); this is not real code
 
 // select each button in the "Our Games" section
 const unfundedBtn = document.getElementById("unfunded-btn");
